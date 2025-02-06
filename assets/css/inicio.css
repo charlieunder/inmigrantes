@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    color: #333;
+    background: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background: url('../img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+

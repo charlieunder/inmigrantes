@@ -1,0 +1,340 @@
+.titulo_pagina {
+    width: 100%;
+    background: rgba(23, 32, 42, 0.9);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    z-index: 10;
+}
+
+.titulo_pagina h1 {
+    font-size: 65px;
+    color: #fff;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.faq-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    width: 100%;
+    height: 400px;
+    background-image: url('/assets/images/migrante_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    position: relative;
+}
+
+.container2 {
+    width: 100%;
+    height: 300px; 
+    background-color: #ffffff ;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column; 
+    
+}
+
+.container2 h2{
+    top: 0;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    color: #a57f2c;
+    font-size: 50px;
+
+}
+
+.cards {
+    flex-direction:row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+}
+
+
+.card_inicio p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+}
+
+.card_inicio p.small {
+    font-size: 15px;
+}
+
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #9b2247;
+    border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+}
+
+.card1 {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    height: 250px;
+    background-color:  #f2f3f4 ;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.card1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #9b2247;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+
+.card1:hover:before {
+    transform: scale(35);
+}
+
+.card1:hover p {
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card1:hover h3 {
+    transition: all 0.3s ease-out;
+    color: #fff;
+}
+
+.container3 {
+    height: 100px;
+    background: #a57f2c;
+}
+
+.container4 {
+    height: 40%;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column; 
+
+}
+
+.container4 h3{
+    top: 0;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    color: #611232;
+    font-size: 50px;
+}
+
+.container4 .textoC4 {
+    flex-direction: row;
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    background: rgba(238, 238, 238, 0.9);
+    padding: 15px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.container4 .textoC4 .texto1{
+    border-right: 5px solid #9b2247;
+    font-size: 22px;
+    padding-right: 15px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important; 
+}
+
+.container4 .textoC4 .texto2{
+    font-size: 22px;
+    padding-left: 15px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important; 
+}
+
+.container4 .texto2C4 {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    color: #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.container4 .texto2C4 .texto3{
+    font-size: 27px;
+    padding-left: 25px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important; 
+}
+
+.container4 .texto2C4 .texto4{
+    font-size: 27px;
+    padding-left: 60px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important; 
+    text-align: justify;
+}
+
+.texto2C4_icono {
+    text-align: left;
+}
+
+.resaltar {
+    color: #9b2247;
+    font-weight: bold;
+}
+
+.container5{
+    width: 100%;
+    height: 400px;
+    background-image: url('/assets/images/migrantes2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    position: relative;
+}
+ 
+
+.container6{
+    width: 100%;
+    height: auto;
+    padding: 52px;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.container6_titulo h4{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    color: #a57f2c;
+    font-size: 50px;
+}
+
+.texto5 {
+    font-size: 30px;
+}
+
+.container6 .cards_finales {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.container6 .card_final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s 0s linear;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cards_finales .card_content{
+    width: 215px;
+}
+
+
+.icono_final_card {
+    z-index: 15;
+    width: 120px;
+}
+
+.titulo_card_final{
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.titulo_card_final h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.container6 .card_final:active {
+    scale: 0.95;
+}
+
+.container6 .card_final::after {
+    content: "";
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    position: absolute;
+    right: 250px;
+    transition: right 0.4s 0s linear;
+    z-index: 1;
+}
+
+.container6 .card_final:hover::after {
+    right: -160px;
+}
+
+.container6 .card_final:hover {
+    color: #023047;
+}
+
+.container6 .card_final p {
+    position: absolute;
+    z-index: 10;
+}
